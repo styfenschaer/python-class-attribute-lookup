@@ -6,7 +6,7 @@ Everything needed to reproduce the results in the article is included in this re
 The only dependencies are numpy and matplotlib. 
 You will have to build the C extension module yourself (make sure you have a C compiler installed). You can type the following command in the path of this directory. 
 
-``bash
+```bash
 python setup.py build_ext --inplace
 ```
 
